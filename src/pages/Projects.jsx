@@ -1,11 +1,41 @@
-import React from 'react'
+import { Link } from "react-router-dom";
+
+import { projects } from "../constants";
+
 
 const Projects = () => {
   return (
-    <div>
-      Projects
-    </div>
-  )
-}
+    <section className='max-container'>
+      <h1 className='head-text'>
+        My{" "}
+        <span className='blue-gradient_text drop-shadow font-semibold'>
+          Projects
+        </span>
+      </h1>
 
-export default Projects
+      <p className='text-slate-500 mt-2 leading-relaxed'>
+        I've embarked on numerous projects throughout the years, but these are
+        the ones I hold closest to my heart. Many of them are open-source, so if
+        you come across something that piques your interest, feel free to
+        explore the codebase and contribute your ideas for further enhancements.
+        Your collaboration is highly valued!
+      </p>
+
+      <div className='flex flex-wrap my-20 gap-16'>
+        {projects.map((project) => (
+          <div>
+            <div>
+              <div className={`btn-back rounded-xl ${project.theme}`}/>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <hr className='border-slate-200' />
+
+      
+    </section>
+  );
+};
+
+export default Projects;

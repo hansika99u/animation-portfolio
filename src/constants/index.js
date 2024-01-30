@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { sliit, ijse, DSCC } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    postgresql
 } from "../assets/icons";
 
 export const skills = [
@@ -61,11 +63,6 @@ export const skills = [
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
     },
     {
         imageUrl: mui,
@@ -106,62 +103,62 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: java,
+        name: "java",
+        type: "Frontend",
+    },
+    {
+        imageUrl: postgresql,
+        name: "postgresql",
+        type: "Frontend",
     }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Sri Lankan Institute of Information Technology",
+        company_name: "SLIIT",
+        icon: sliit,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Jun 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "In-depth study of advanced algorithms and data structures to enhance problem-solving skills.",
+            "Hands-on experience in software development using various frameworks",
+            "In-depth knowledge of database systems and practical skills in database management.",
+            "Specialized coursework in computer networking, covering protocols, security, and network design.",
+            "Proficient understanding of operating systems and hands-on experience in system administration.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Institute of java and software engineering",
+        company_name: "IJSE",
+        icon: ijse,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Aug 2021 - Jan 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed skills in object-oriented design and programming.",
+            "Acquired solid understanding and hands-on experience in DBMS and MySQL.",
+            "Explored Java collections and frameworks for efficient coding.",
+            "Proficient in identifying and handling exceptions in Java.",
+            "Hands-on experience in developing GUI applications using Swing and JavaFX.",
+            "Proficient use of Java Standard Edition API.",
+            "Applied design patterns (Singleton, Facade, Factory, etc.) and explored application architectures."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Dudley Senanayake Cental Collage",
+        company_name: "DSCC",
+        icon: DSCC,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2010 - Jul 2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "completed the A/L exam successfully, with notable scores in the physical science stream for combined maths (B), chemistry (C), and physics (C). ",
+            "Attained excellent results, securing 8 A's and 1 B in the Ordinary Level examination.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    
 ];
 
 export const socialLinks = [

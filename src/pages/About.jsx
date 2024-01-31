@@ -10,7 +10,7 @@ const About = () => {
     <section className='max-container '>
       <h1 className='head-text'>
         Hello, I'm <span className='blue-gradient_text font-semibold 
-        drop-shadow'>Hansika</span>
+        drop-shadow'>Hansika</span>👋
 
       </h1>
       <div>

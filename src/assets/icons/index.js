@@ -28,6 +28,10 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import java from './java.svg'
 import postgresql from './postgresql.svg'
+import beach from './beach.svg'
+import pharmacy from './pharmacy.svg'
+import education from './education.svg'
+import chat from './chat.svg'
 
 export {
     css,
@@ -59,5 +63,9 @@ export {
     soundon,
     soundoff,
     java,
-    postgresql
+    postgresql,
+    beach,
+    pharmacy,
+    education,
+    chat
 }

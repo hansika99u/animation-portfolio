@@ -71,7 +71,15 @@ const Home = () => {
         <Canvas 
           className={`w-full h-screen bg-transparent ${isRotating ?
           'cursor-grabing' : 'cursor-grab'}`}
-          camera={{near:0.1, far:1000}}
+          camera={{ near: 0.1, far: 1000 }}
+          onTouchStart={(e) => {
+            if (e.touches.length === 1) {
+              setIsRotating(true);
+            }
+          }}
+          onTouchEnd={() => setIsRotating(false)}
+          onMouseDown={() => setIsRotating(true)}
+          onMouseUp={() => setIsRotating(false)}
           >
             <Suspense fallback={<Loader/>}>
               <directionalLight position={[1,1,1]} intensity={2} />
